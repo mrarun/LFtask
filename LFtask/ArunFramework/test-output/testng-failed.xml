@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="none" name="Failed suite [Lowest Price Suite]">
+  <listeners>
+    <listener class-name="com.af.extentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test parallel="none" name="Amazon(failed)">
+    <classes>
+      <class name="com.af.test.FlipkartTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.af.test.FlipkartTest -->
+      <class name="com.af.test.AmazonTest">
+        <methods>
+          <include name="amazonHomePageTitleTest"/>
+          <include name="searchAndGetProductPriceForAmazon"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.af.test.AmazonTest -->
+    </classes>
+  </test> <!-- Amazon(failed) -->
+  <test parallel="none" name="Flipkart(failed)">
+    <classes>
+      <class name="com.af.test.FlipkartTest">
+        <methods>
+          <include name="flipkartHomePageTitleTest"/>
+          <include name="searchAndGetProductPriceForFlipkart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.af.test.FlipkartTest -->
+      <class name="com.af.test.AmazonTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.af.test.AmazonTest -->
+    </classes>
+  </test> <!-- Flipkart(failed) -->
+  <test parallel="none" name="PriceCompare(failed)">
+    <classes>
+      <class name="com.af.test.FlipkartTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.af.test.FlipkartTest -->
+      <class name="com.af.test.PriceCompare">
+        <methods>
+          <include name="FindLowestPrice"/>
+        </methods>
+      </class> <!-- com.af.test.PriceCompare -->
+      <class name="com.af.test.AmazonTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.af.test.AmazonTest -->
+    </classes>
+  </test> <!-- PriceCompare(failed) -->
+</suite> <!-- Failed suite [Lowest Price Suite] -->

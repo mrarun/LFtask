@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[119900]]>
+    </line>
+    <line>
+      <![CDATA[119900]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-02-18T15:50:05Z" name="Lowest Price Suite" finished-at="2021-02-18T15:50:42Z" duration-ms="36987">
+    <groups>
+    </groups>
+    <test started-at="2021-02-18T15:50:05Z" name="Amazon" finished-at="2021-02-18T15:50:24Z" duration-ms="18464">
+      <class name="com.af.test.AmazonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.af.test.AmazonTest@25b485ba]" started-at="2021-02-18T21:20:05Z" name="setUp" finished-at="2021-02-18T21:20:12Z" duration-ms="7182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="amazonHomePageTitleTest()[pri:0, instance:com.af.test.AmazonTest@25b485ba]" started-at="2021-02-18T21:20:12Z" name="amazonHomePageTitleTest" finished-at="2021-02-18T21:20:12Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.af.test.AmazonTest@25b485ba]" started-at="2021-02-18T21:20:12Z" name="tearDown" finished-at="2021-02-18T21:20:14Z" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.af.test.AmazonTest@25b485ba]" started-at="2021-02-18T21:20:14Z" name="setUp" finished-at="2021-02-18T21:20:20Z" duration-ms="6392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchAndGetProductPriceForAmazon()[pri:0, instance:com.af.test.AmazonTest@25b485ba]" started-at="2021-02-18T21:20:20Z" name="searchAndGetProductPriceForAmazon" finished-at="2021-02-18T21:20:22Z" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndGetProductPriceForAmazon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.af.test.AmazonTest@25b485ba]" started-at="2021-02-18T21:20:22Z" name="tearDown" finished-at="2021-02-18T21:20:24Z" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.af.test.AmazonTest -->
+    </test> <!-- Amazon -->
+    <test started-at="2021-02-18T15:50:24Z" name="Flipkart" finished-at="2021-02-18T15:50:42Z" duration-ms="18475">
+      <class name="com.af.test.FlipkartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.af.test.FlipkartTest@3e3047e6]" started-at="2021-02-18T21:20:24Z" name="setUp" finished-at="2021-02-18T21:20:31Z" duration-ms="7134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="flipkartHomePageTitleTest()[pri:0, instance:com.af.test.FlipkartTest@3e3047e6]" started-at="2021-02-18T21:20:31Z" name="flipkartHomePageTitleTest" finished-at="2021-02-18T21:20:31Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.af.test.FlipkartTest@3e3047e6]" started-at="2021-02-18T21:20:31Z" name="tearDown" finished-at="2021-02-18T21:20:32Z" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.af.test.FlipkartTest@3e3047e6]" started-at="2021-02-18T21:20:32Z" name="setUp" finished-at="2021-02-18T21:20:41Z" duration-ms="8785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchAndGetProductPriceForFlipkart()[pri:0, instance:com.af.test.FlipkartTest@3e3047e6]" started-at="2021-02-18T21:20:41Z" name="searchAndGetProductPriceForFlipkart" finished-at="2021-02-18T21:20:41Z" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndGetProductPriceForFlipkart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.af.test.FlipkartTest@3e3047e6]" started-at="2021-02-18T21:20:41Z" name="tearDown" finished-at="2021-02-18T21:20:42Z" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.af.test.FlipkartTest -->
+    </test> <!-- Flipkart -->
+    <test started-at="2021-02-18T15:50:42Z" name="PriceCompare" finished-at="2021-02-18T15:50:42Z" duration-ms="3">
+      <class name="com.af.test.PriceCompare">
+        <test-method signature="FindLowestPrice()[pri:0, instance:com.af.test.PriceCompare@45dd4eda]" started-at="2021-02-18T21:20:42Z" name="FindLowestPrice" finished-at="2021-02-18T21:20:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[119900]]>
+            </line>
+            <line>
+              <![CDATA[119900]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FindLowestPrice -->
+      </class> <!-- com.af.test.PriceCompare -->
+    </test> <!-- PriceCompare -->
+  </suite> <!-- Lowest Price Suite -->
+</testng-results>

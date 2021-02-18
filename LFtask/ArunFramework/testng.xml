@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Lowest Price Suite" annotations="JDK" parallel="none">
+   
+   <listeners>
+		<listener class-name="com.af.extentReportListener.ExtentReportNG" />
+	</listeners> 
+	    
+  <test name="Amazon">
+	 <classes>
+	   <class name="com.af.test.AmazonTest"/>
+	 </classes>
+   </test>
+   
+   <test name="Flipkart">
+	 <classes>
+	   <class name="com.af.test.FlipkartTest"/>
+	 </classes>
+   </test>
+   
+   <test name="PriceCompare">
+	 <classes>
+	   <class name="com.af.test.PriceCompare"/>
+	 </classes>
+   </test>
+   
+</suite>
